@@ -1,7 +1,7 @@
 {
-  "name": "@nandorojo/galeria",
+  "name": "@camplify/galeria",
   "version": "0.4.0",
-  "description": "A native galeria.",
+  "description": "A fork of @nandorojo/galeria.",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -21,15 +21,16 @@
     "galeria",
     "Galeria"
   ],
-  "repository": "https://github.com/nandorojo/galeria",
-  "bugs": {
-    "url": "https://github.com/nandorojo/galeria/issues"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/camplify/galeria"
   },
-  "author": "Fernando Rojo <frojo@sas.upenn.edu> (https://github.com/nandorojo)",
-  "license": "MIT",
-  "homepage": "https://github.com/nandorojo/galeria#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "homepage": "https://github.com/camplify/galeria#readme",
   "dependencies": {
-    "framer-motion": "^10.9.1"
+    "framer-motion": "^11.9.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.25",
