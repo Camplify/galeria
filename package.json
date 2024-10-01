@@ -28,6 +28,8 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "author": "Fernando Rojo <frojo@sas.upenn.edu> (https://github.com/nandorojo)",
+  "license": "MIT",
   "homepage": "https://github.com/camplify/galeria#readme",
   "dependencies": {
     "framer-motion": "^11.9.0"
